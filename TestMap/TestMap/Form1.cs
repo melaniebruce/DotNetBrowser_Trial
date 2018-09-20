@@ -21,9 +21,9 @@ namespace TestMap
             browserView = new WinFormsBrowserView() { Dock = DockStyle.Fill };
             Controls.Add((Control)browserView);
             //local 
-            //browserView.Browser.LoadURL("C:\\users\\mbruce\\desktop\\ESRI_Leaflet.html");
+            browserView.Browser.LoadURL("C:\\users\\mbruce\\desktop\\ESRI_Leaflet.html");
             //from web
-            browserView.Browser.LoadURL("https://developers.arcgis.com/javascript/latest/sample-code/intro-sceneview/live/index.html");
+            //browserView.Browser.LoadURL("https://developers.arcgis.com/javascript/latest/sample-code/intro-sceneview/live/index.html");
         }
 
         private void Form1_Load(object sender, EventArgs e)
